@@ -14,7 +14,7 @@
             <h2>Lista de Libros </h2>
             <ul>
                 {books.map(book => (
-                    <li key={book._id}>{book.title} - {book.author}</li>
+                    <li key={book._id}>{book.titulo} - {book.autor}</li>
                 ))}
             </ul>
         </div>

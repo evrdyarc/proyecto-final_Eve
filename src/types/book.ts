@@ -1,7 +1,7 @@
 export interface  Book {
     _id?: string;
-    title: string;
-    author: string;
+    titulo: string;
+    autor: string;
     description?: string;
     year?: number;
     available?: boolean;
